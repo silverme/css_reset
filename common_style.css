@@ -1,0 +1,61 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,textarea,p,th,td,tr,table,tbody,thead,tfoot,em,strong,span,img,section,input {padding:0;margin:0;} 
+table {border-collapse:collapse;border-spacing:0;} 
+img {border:0 none;display:block;} 
+em {font-weight:normal;font-style:normal;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:100%;} 
+.clearFix:after{content:' ';display:block;height:0;clear:both;overflow:hidden;visibility:hidden;}
+.clearFix {*zoom:1;}
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
+input,textarea {font-size:12px;outline:0;outline:0 none;-webkit-appearance: none;border-radius: 0;border:none}
+ul,li {list-style-type:none}
+* {-webkit-box-sizing: border-box;-moz-box-sizing:border-box;box-sizing: border-box;-webkit-tap-highlight-color: rgba(255,255,255,0);}
+i {font-style:normal}
+
+/* FOR IE */
+html {font-size:62.5%;}
+/* FOR MOBILE */
+html {font-size:20px;}
+
+html,body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+body::-webkit-scrollbar {display: none;}
+
+/* common */
+.pa {position:absolute}
+.pa0 {position:absolute;top:0;left:0}
+.pr {position:relative}
+.pf {position:fixed}
+.pf0 {position:fixed;top:0;left:0}
+.w10 {width:100%}
+.h10 {height:100%}
+.oh {overflow:hidden}
+.p0 {padding:0}
+.tr{-webkit-transition:0.2s all ease-out;-moz-transition:0.2s all ease-out;transition:0.2s all ease-out}
+.tr4 {-webkit-transition:0.4s all ease-out;-moz-transition:0.4s all ease-out;transition:0.4s all ease-out}
+.mar0 {margin:0 auto}
+.fl {float:left}
+.fr {float:right}
+.db {display:block}
+.show {display:block !important}
+.hide {display:none !important}
+.ta {text-align:center}
+.bd5 {border-radius:5px}
+.bd8 {border-radius:8px;}
+.f8 {background:#f8f8f8}
+.df {background:#dfdfdf}
+.f0 {background:#f0f0f0}
+.pac {position:absolute;top:50%;left:50%;}
+.pacw {position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%)}
