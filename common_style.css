@@ -32,6 +32,7 @@ html,body {
 	text-size-adjust: none;
 }
 body::-webkit-scrollbar {display: none;}
+/* * {-webkit-font-smoothing: antialiased;} */
 
 /* common */
 .pa {position:absolute}
@@ -59,3 +60,4 @@ body::-webkit-scrollbar {display: none;}
 .f0 {background:#f0f0f0}
 .pac {position:absolute;top:50%;left:50%;}
 .pacw {position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%)}
+.ani {-webkit-backface-visibility: hidden;-webkit-perspective: 5000;-webkit-transform-style: preserve-3d}
