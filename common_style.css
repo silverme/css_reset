@@ -1,5 +1,5 @@
 /*reset*/
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,textarea,p,th,td,tr,table,tbody,thead,tfoot,em,strong,span,img,section,input {padding:0;margin:0;} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,textarea,p,th,td,tr,table,tbody,thead,tfoot,em,strong,span,img,section,input {padding:0;margin:0;line-height:1;} 
 table {border-collapse:collapse;border-spacing:0;} 
 img {border:0 none;display:block;} 
 em {font-weight:normal;font-style:normal;} 
